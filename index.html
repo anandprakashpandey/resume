@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANAND PRAKASH PANDEY'PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(71, 23, 107);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 99px;
+            background-color: rgb(23, 23, 69);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(238, 162, 63);
+            font-size: 1.2rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: bisque;
+            height: 1.2px;
+            margin: 40px 80px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-between;
+            width: 80pc;
+
+        }
+
+        .firstsection div> {
+            width: 50pc;
+        }
+
+        .leftsection {
+            background-color: blueviolet;
+            width: 40pc;
+            font-size: 2.5rem;
+            margin: 50px;
+            border-radius: 15px;
+            border: solid darkblue;
+
+        }
+
+        .leftsection .buttons {
+            padding: 40px 20px;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: rgb(27, 54, 208);
+            color: whitesmoke;
+            border: solid 2px black;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+
+
+        .darkblue {
+            color: rgb(33, 31, 99);
+            font-family: claredon;
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(33, 31, 99);
+
+        }
+
+        .secondsection {
+            max-width: 70vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        .secondsection h1 {
+            font-size: 1.55rem;
+        }
+
+        .secondsection .box {
+            background-color: azure;
+            width: 50vw;
+            height: 2px;
+            margin: 50px 0;
+            display: flex;
+
+        }
+
+        .secondsection .vertical {
+
+            height: 80px;
+            width: 1px;
+            background-color: white;
+            margin: 0 130px;
+            display: flex;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 70px;
+            width: 150px;
+
+
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 140px;
+            color: rgb(205, 188, 168);
+
+        }
+
+        .vertical-titletext {
+            position: relative;
+            top: 50px;
+            width: 250px;
+            font-family: claredon;
+            font-style: italic;
+
+        }
+
+        .footer {
+            background-color: rgb(72, 96, 99);
+            height: 160px;
+            font-size: 1.5rem;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 10px 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">ANAND PRAKASH PANDEY'S PORTFOLIO</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/about.html">CAREER OBJECTIVE</a></li>
+                    <li><a href="/education.html">EDUCATION</a></li>
+                    <li><a href="/skills.html">SKILLS</a></li>
+                    <li><a href="/">PROJECTS</a></li>
+                    <li><a href="/experience.html">PAST EXPERIENCE & INTERNSHIPS</a></li>
+                    <li><a href="/roles.html">ROLES & RESPONSIBILITIES</a></li>
+                    <li><a href="/contact.html">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hii, My name is <span class="darkblue"> ANAND PRAKASH PANDEY</span>
+
+                <div> and I am</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="ph.png" alt style="
+                width: 30pc;
+                margin: 60px 0;
+                border-radius: 25px;
+                ">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">My education details</span>
+
+            <h1>EDUCATION</h1>
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title"> ANGLO ARABIC SCHOOL(2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        -standard 11th and 12th.
+                    </div>
+
+
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">TECHNO INDIA UNIVERSITY(2021-2023)
+
+                    </div>
+                    <div class="vertical-desc">
+                        -Bachelor Of Computer Applications.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-titletext"> TO BE CONTINUED...</div>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            Anand Prakash Pandey's portfolio website.
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['an enthusiastic student.', 'a web developer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
